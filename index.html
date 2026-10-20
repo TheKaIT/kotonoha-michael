@@ -1,1 +1,49 @@
-<pre><code><iframe src="https://calendar.google.com/calendar/embed?height=1500&wkst=1&ctz=Asia%2FTokyo&showPrint=0&hl=ja&title=%E8%A8%80%E3%81%AE%E8%91%89%E5%B7%A5%E6%88%BF%E3%83%9F%E3%82%AB%E3%82%A8%E3%83%AB&mode=AGENDA&src=NThkYWQwNmZkNDA3MDZlZjA1OTQxMzhlODhkZjVlMGM2ZGM4MmNkNWY5NzExNDZiMDViYjg5Y2Q5ZmMwN2ZhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d81b60" style="border:solid 10px #777" width="950" height="1500" frameborder="0" scrolling="no"></iframe></code></pre>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>言の葉工房ミカエル</title>
+  <style>
+    /* Reset margins and force container to full screen */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      background-color: #f9f9f9;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    /* Wrapper that scales the iframe up for larger text */
+    .calendar-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      /* Ensures text rendering is sharp across screens */
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calendar-container">
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?height=1500&wkst=1&ctz=Asia%2FTokyo&showPrint=0&hl=ja&title=%E8%A8%80%E3%81%AE%E8%91%89%E5%B7%A5%E6%88%BF%E3%83%9F%E3%82%AB%E3%82%A8%E3%83%AB&mode=AGENDA&src=NThkYWQwNmZkNDA3MDZlZjA1OTQxMzhlODhkZjVlMGM2ZGM4MmNkNWY5NzExNDZiMDViYjg5Y2Q5ZmMwN2ZhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d81b60" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
+
+</body>
+</html>
